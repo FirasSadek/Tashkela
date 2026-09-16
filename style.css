@@ -642,7 +642,7 @@ body {
 }
 
 .container4 h1 {
-  font-size: clamp(30px, 6vw, 65px);
+  font-size: clamp(24px, 4vw, 45px);
   font-family: "Tajawal", sans-serif;
   color: #222;
   text-align: center;
@@ -1060,11 +1060,13 @@ body {
 
   .cards {
     grid-template-columns: 1fr;
+    gap: 25px;
   }
 
   .card {
     width: 100% !important;
     height: auto;
+    margin: 0;
   }
 
   .card-img-top {
@@ -1102,15 +1104,22 @@ body {
   }
 
   .timeline-with-icons {
-    margin: 10px 5px;
-    padding-right: 15px;
+    margin: 10px auto;
+    padding-right: 0;
+    width: fit-content;
+    position: relative;
+  }
+
+  .timeline-with-icons .timeline-item {
+    padding-right: 35px;
   }
 
   .timeline-with-icons .timeline-icon {
-    right: -20px;
+    right: -21px;
     height: 42px;
     width: 42px;
     font-size: 16px;
+    z-index: 2;
   }
 
   .download-container {
@@ -1442,6 +1451,27 @@ body {
     order: 2 !important;
     width: 100%;
     margin-top: 0;
+  }
+
+  /* ======================= TIMELINE ======================= */
+
+  .timeline-with-icons {
+    margin: 10px auto;
+    padding-right: 0;
+    width: fit-content;
+    position: relative;
+  }
+
+  .timeline-with-icons .timeline-item {
+    padding-right: 35px;
+  }
+
+  .timeline-with-icons .timeline-icon {
+    right: -21px;
+    height: 42px;
+    width: 42px;
+    font-size: 16px;
+    z-index: 2;
   }
 
   /* SECTION 6 */

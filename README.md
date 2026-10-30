@@ -123,7 +123,7 @@ You can also use **Live Server** in Visual Studio Code for a better development 
 
 **Firas Sadek**
 
-- 📧 Email: `firassadek666@gmail.com`
+- 📧 Email: `firas.sadek11@gmail.com`
 - 📍 Syria
 
 ## 📄 License
